@@ -1,0 +1,11 @@
+{
+  "name": "YouTube Derp",
+  "version": "1.0",
+  "description": "Turns YouTube comments into a herp derp derp.",
+  "content_scripts": [
+    {
+      "matches": ["http://www.youtube.com/watch?v=*"],
+      "js": ["jquery-1.4.2.min.js", "youtube_filter.js"]
+    }
+  ]
+}
